@@ -1,0 +1,17 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 51826,
+		"pin": "123-45-568"
+	},
+
+	"accessories": [
+		{
+			"accessory": "SonyAndroidTV",
+			"name": "Sony TV",
+			"ip": "SONY_TV_IP_ADDRESS",
+			"psk":"YOUR_PRE_SHARED_KEY"
+		}
+	]
+}
