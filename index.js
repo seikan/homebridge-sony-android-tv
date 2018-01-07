@@ -61,7 +61,7 @@ SonyAndroidTV.prototype = {
 				return;
 			}
 
-			log.debug('Error getting power state. [%s] %s', response.statusCode, error);
+			log.debug('Error getting power state. %s', error);
 
 			callback();
 		});
@@ -94,7 +94,7 @@ SonyAndroidTV.prototype = {
 				return;
 			}
 
-			log.debug('Error setting power state. [%s] %s', response.statusCode, error);
+			log.debug('Error setting power state. %s', error);
 		});
 
 		callback();
